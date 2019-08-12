@@ -1,14 +1,20 @@
 {
-  "compact": false,
-  "presets": [
-    ["env", {
-      "targets": {
-        "node": "4"
-      },
-      "exclude": ["transform-es2015-typeof-symbol"]
-    }]
-  ],
-  "plugins": [
-    "transform-for-of-as-array"
-  ]
+    "compact": false,
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "node": "4"
+                },
+                "exclude": [
+                    "transform-es2015-typeof-symbol"
+                ]
+            }
+        ],
+        "minify"
+    ],
+    "plugins": [
+        "transform-for-of-as-array"
+    ]
 }
